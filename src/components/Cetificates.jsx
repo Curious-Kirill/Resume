@@ -5,11 +5,11 @@ import WebCert from '../assets/WebCertificates.png'
 
 const Cetificates = () => {
   return (
-    <div name="certificates" className='w-full pt-[200px] md:h-screen  text-gray-300  bg-[#0a192f] '>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name="certificates" className='w-full    text-gray-300  bg-[#0a192f] '>
+        <div className='max-w-[1000px] pb-[200px] pt-[200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className='pb-1'>
-            <p id="work" className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 '>Сертификаты</p>
-            <p id="checkMyWork"className='py-6'>Здесь вы можете ознакомиться с последними пройдеными мною курсами</p>
+            <p id="certificates" className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 '>Сертификаты</p>
+            <p id="checkMyCerf"className='py-6'>Здесь вы можете ознакомиться с последними пройдеными мною курсами</p>
           </div>
 
           <div 

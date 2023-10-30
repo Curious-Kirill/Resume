@@ -4,16 +4,13 @@ import {
   FaTimes,
   FaGithub,
   FaTelegram,
-  FaFacebook,
-  FaLinkedinIn,
 } from 'react-icons/fa';
-import Telegramm from '../assets/pngwing.com.png'
+
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
+
 import { Link } from 'react-scroll';
-import { getElementError } from '@testing-library/react';
-import Skills from './Skills';
+
 export var language = "Ru"
 
 const Navbar = () => {
@@ -34,9 +31,17 @@ const Navbar = () => {
       document.getElementById('description').innerHTML= "Я специализируюсь на разработке сайтов со стороны клиента. На данный момент открыт к предложениям о сотрудничестве. "
       document.getElementById('myProjects').innerHTML= "Мои проекты "
       document.getElementById('work').innerHTML= "Мои проекты"
-      document.getElementById('checkMyWork').innerHTML= "Здесь вы можете ознакомиться с примерами моего кода "
-      document.getElementById('name').innerHTML= "Кирилл Логунов"
-      document.getElementById('name').innerHTML= "Кирилл Логунов"
+      document.getElementById('checkMyWork').innerHTML= "// Здесь вы можете ознакомиться с примерами моего кода "
+      document.getElementById('hi').innerHTML= "Пиветствую! Меня зовут Кирилл Логунов. На этом сайте я хочу показать вам некоторые свои работы."
+      document.getElementById('about').innerHTML= "Обо мне"
+      document.getElementById('self-description').innerHTML= "Кирилл Логунов"
+      document.getElementById('self-description').innerHTML= "Я люблю создавать сайты, которые помогают качественно улучшить опыт взаимодействия клиентов с бизнесом. Я специализируюсь на создании сайтов любой направленности. От индивидуальных одностраничных визиток до крупных нагруженных сайтов с богатым функционалом. Пролистав этот сайт немного ниже вы сможете ознакомиться с примерами моих работ."
+      document.getElementById('checkMyCerf').innerHTML= "Здесь вы можете ознакомиться с последними пройдеными мною курсами"
+      document.getElementById('contact').innerHTML= "Связаться со мной"
+      document.getElementById('email').innerHTML= "// Вы можете заполнить форму ниже или написать мне на email - kirill.log2020@gmail.com"
+      document.getElementById('collab').innerHTML= "Отправить письмо"
+      document.getElementById('certificates').innerHTML= "Мои сертификаты"
+      document.getElementById('certificates').innerHTML= "Мои сертификаты"
     }else{
       language = "En"
       document.getElementById('skills').innerHTML= "Skills"
@@ -45,9 +50,17 @@ const Navbar = () => {
       document.getElementById('occupation').innerHTML= "I'm a Front End Developer."
       document.getElementById('description').innerHTML= "I'm a Frontend Developer specializing in building and occasionally designing exeptional digital experiences. Currently available for hiring "
       document.getElementById('myProjects').innerHTML= "View Work"
-      document.getElementById('name').innerHTML= "Kirill Logunov"
-      document.getElementById('name').innerHTML= "Kirill Logunov"
-      document.getElementById('name').innerHTML= "Kirill Logunov"
+      document.getElementById('hi').innerHTML= "Hi. I'm Kirill Logunov, nice to see you. Let's take a closer look at my portfolio"
+      document.getElementById('self-description').innerHTML= "I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. Below this section you will see my skiils and what I can do using them."
+      document.getElementById('about').innerHTML= "About"
+      document.getElementById('checkMyCerf').innerHTML=  "There are the last certificates that I've earned"
+      document.getElementById('certificates').innerHTML= "Certificates"
+      document.getElementById('checkMyWork').innerHTML= "// Check out some of my recent work"
+      document.getElementById('work').innerHTML= "Work"
+      document.getElementById('email').innerHTML= "// Submit the form below or shoot me an email - kirill.log2020@gmail.com"
+      document.getElementById('contact').innerHTML= "Contact"
+      document.getElementById('collab').innerHTML= "Let's Collaborate"
+
     }
     console.log(language);
       
@@ -78,23 +91,23 @@ const Navbar = () => {
       
 
         <li id="home">
-          <Link to='home' smooth={true} duration={500}>
+          <Link to='home11' smooth={true} duration={500}>
             {lang?'Главная':'Home'}
           </Link>
         </li>
         
         <li>
-          <Link to='about' smooth={true} duration={500}>
+          <Link to='aboutDiv' smooth={true} duration={500}>
           {lang?'Обо мне':'About'}
           </Link>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link to='skillsDiv' smooth={true} duration={500}>
           {lang?'Навыки':'Skills'}
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
+          <Link to='workDiv' smooth={true} duration={500}>
            {lang?'Портфолио':'Work'}
           </Link>
         </li>
@@ -163,7 +176,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/Curious-Kirill'
             >
               Github <FaGithub size={30} />
             </a>
@@ -171,7 +184,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='mailto:kirill.log2020@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>

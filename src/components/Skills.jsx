@@ -1,34 +1,27 @@
-import React, { useEffect, useState } from 'react';
-import { language } from './Navbar';
+
 
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
+
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
 
 const Skills = (props) => {
-    const[lang,setLang] = useState('En')
-
-  let a = props.value;
-  if(a==='En'){
-    setLang("En")
-  }
-  useEffect(()=>{
-    console.log(a)
-  },[lang]
-  )
-  return (
-    <div name='skills' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+   
+ 
+  return ( 
+    <div name='skills' id="skillsDiv" className='w-full md:mb-[200px] md:mt-[200px] h-screen text-gray-300 bg-[#0a192f]'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] pb-[300px] pt-[100px] mx-auto p-4 flex flex-col justify-center w-full md:h-full'>
           <div>
-              <p id="skills" className='text-4xl font-bold inline border-b-4 border-pink-600 '>{a==="Ru"?'Навыки':'Skillsssss'}</p>
-              <p id="skills2" className='py-4'>// These are the technologies I've worked with</p>
+              
+              <p id="skills" className='text-4xl font-bold inline border-b-4 border-pink-600 '>Навыки</p>
+              {/*  eslint-disable-next-line */}
+              <p id="skills2" className='py-4'>// Технологии с которыми я работаю</p>
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>

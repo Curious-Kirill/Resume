@@ -2,14 +2,17 @@ import React from 'react';
 import ai from '../assets/ai.png';
 import Burak from '../assets/Burak.png';
 import Restik from '../assets/restaurant.png';
-
+import robot from '../assets/robot.png'
+import rvr from '../assets/RvR.png'
+import kirill from '../assets/kirilloid.png'
 const Work = () => {
   return (
-    <div name="work" className='w-full pt-[400px] md:h-screen text-gray-300  bg-[#0a192f] '>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name="work" id='workDiv' className='w-full  text-gray-300  bg-[#0a192f] '>
+        <div className='max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className='pb-8'>
-            <p id="work" className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 '>Work</p>
-            <p id="checkMyWork"className='py-6'>// Check out some of my recent work</p>
+            <p id="work" className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 '>Портфолио</p>
+            {/*  eslint-disable-next-line */}
+            <p id="checkMyWork"className='py-6'>// Здесь вы можете ознакомиться с примерами моего кода</p>
           </div>
 
           <div 
@@ -20,14 +23,14 @@ const Work = () => {
               <div className='opacity-0 group-hover:opacity-100 '>
               
                   <span className='text-2xl font-bold text-white tracking-wider'>
-                       Сайт фелиала сети ресторанов <br/>&nbsp; Skully
+                       Сайт фелиала сети ресторанов  Skully
                   </span>
                   <div className='pt-8 text-center '>
-                    <a href="/">
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Demo</button>
+                    <a href="https://polite-biscochitos-ee37db.netlify.app/">
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Посмотреть сайт</button>
                     </a>
-                    <a href="/">
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Code</button>
+                    <a href="https://github.com/Curious-Kirill/Skully-Restaurant.git">
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Посмотреть код</button>
                     </a>
                   </div>
               
@@ -43,10 +46,10 @@ const Work = () => {
                       Новостной сайт <br/>&nbsp; про ChatGPT
                   </span>
                   <div className='pt-8 text-center '>
-                    <a href="/">
+                    <a href="https://wonderful-tartufo-35622e.netlify.app/">
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть Сайт</button>
                     </a>
-                    <a href="/">
+                    <a href="https://github.com/Curious-Kirill/ChatGPT.git">
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть код</button>
                     </a>
                   </div>
@@ -74,24 +77,65 @@ const Work = () => {
 
 </div>
 </div>
-<div style={{backgroundImage:`url(${ai})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+<div style={{backgroundImage:`url(${robot})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
 
 {/* Hover Effects */}
 <div className='opacity-0 group-hover:opacity-100 '>
 
     <span className='text-2xl font-bold text-white tracking-wider'>
-        Новостной сайт <br/>&nbsp; про ChatGPT
+        Сайт приложения банка Lloyds
     </span>
     <div className='pt-8 text-center '>
-      <a href="/">
-        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Demo</button>
+      <a href="https://jolly-babka-ad0ae6.netlify.app/">
+        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть сайт</button>
       </a>
-      <a href="/">
-        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Code</button>
+      <a href="https://github.com/Curious-Kirill/NewBanking.git">
+        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть код</button>
       </a>
     </div>
 
 </div>
+</div>
+
+<div style={{backgroundImage:`url(${rvr})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+
+{/* Hover Effects */}
+<div className='opacity-0 group-hover:opacity-100 '>
+
+    <span className='text-2xl font-bold text-white tracking-wider'>
+        Сайт производителя систем автозапуска
+    </span>
+    <div className='pt-8 text-center '>
+      <a href="https://jolly-babka-ad0ae6.netlify.app/">
+        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть сайт</button>
+      </a>
+      <a href="https://github.com/Curious-Kirill/NewBanking.git">
+        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть код</button>
+      </a>
+    </div>
+
+</div>
+
+</div>
+<div style={{backgroundImage:`url(${kirill})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+
+{/* Hover Effects */}
+<div className='opacity-0 group-hover:opacity-100 '>
+
+    <span className='text-2xl font-bold text-white tracking-wider'>
+        Сайт дибилоидов
+    </span>
+    <div className='pt-8 text-center '>
+      <a href="https://jolly-babka-ad0ae6.netlify.app/">
+        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть сайт</button>
+      </a>
+      <a href="https://github.com/Curious-Kirill/NewBanking.git">
+        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть код</button>
+      </a>
+    </div>
+
+</div>
+
 </div>
 
           </div>
