@@ -4,7 +4,7 @@ import Burak from '../assets/Burak.png';
 import Restik from '../assets/restaurant.png';
 import robot from '../assets/robot.png'
 import rvr from '../assets/RvR.png'
-import kirill from '../assets/kirilloid.png'
+import dream from '../assets/DreamSchool.png'
 const Work = () => {
   return (
     <div name="work" id='workDiv' className='w-full  text-gray-300  bg-[#0a192f] '>
@@ -37,6 +37,27 @@ const Work = () => {
               </div>
             </div>
 
+            <div style={{backgroundImage:`url(${Burak})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+
+{/* Hover Effects */}
+<div className='opacity-0 text-center group-hover:opacity-100 '>
+
+    <span className='text-xl  font-bold text-white tracking-wider'>
+    &nbsp;&nbsp;&nbsp;Cайт центра <br/> дошкольной подготовки
+    </span>
+    <div className='pt-8 text-center '>
+      <a href="https://burakov-club71.ru/">
+        <button className='text-center rounded-lg px-4 py-3  bg-white text-gray-700 font-bold text-lg' > Посмотреть сайт</button>
+      </a>
+      <a href="https://github.com/Curious-Kirill/Burakov-School.git">
+        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть код</button>
+      </a>
+    </div>
+    
+
+</div>
+</div>
+
              <div style={{backgroundImage:`url(${ai})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
 
               {/* Hover Effects */}
@@ -57,26 +78,7 @@ const Work = () => {
               </div>
             </div>
 
-            <div style={{backgroundImage:`url(${Burak})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
-
-{/* Hover Effects */}
-<div className='opacity-0 text-center group-hover:opacity-100 '>
-
-    <span className='text-xl  font-bold text-white tracking-wider'>
-    &nbsp;&nbsp;&nbsp;Cайт центра <br/> дошкольной подготовки
-    </span>
-    <div className='pt-8 text-center '>
-      <a href="https://burakov-club71.ru/">
-        <button className='text-center rounded-lg px-4 py-3  bg-white text-gray-700 font-bold text-lg' > Посмотреть сайт</button>
-      </a>
-      <a href="/">
-        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть код</button>
-      </a>
-    </div>
-    
-
-</div>
-</div>
+           
 <div style={{backgroundImage:`url(${robot})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
 
 {/* Hover Effects */}
@@ -97,16 +99,17 @@ const Work = () => {
 </div>
 </div>
 
-<div style={{backgroundImage:`url(${rvr})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+
+<div style={{backgroundImage:`url(${dream})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
 
 {/* Hover Effects */}
 <div className='opacity-0 group-hover:opacity-100 '>
 
     <span className='text-2xl font-bold text-white tracking-wider'>
-        Сайт производителя систем автозапуска
+        Сайт частной школы <br/>"Мечта"
     </span>
     <div className='pt-8 text-center '>
-      <a href="https://jolly-babka-ad0ae6.netlify.app/">
+      <a href="https://exquisite-shortbread-b8b83c.netlify.app/">
         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть сайт</button>
       </a>
       <a href="https://github.com/Curious-Kirill/NewBanking.git">
@@ -117,13 +120,13 @@ const Work = () => {
 </div>
 
 </div>
-<div style={{backgroundImage:`url(${kirill})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+<div style={{backgroundImage:`url(${rvr})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
 
 {/* Hover Effects */}
 <div className='opacity-0 group-hover:opacity-100 '>
 
     <span className='text-2xl font-bold text-white tracking-wider'>
-        Сайт дибилоидов
+        Сайт производителя систем автозапуска
     </span>
     <div className='pt-8 text-center '>
       <a href="https://jolly-babka-ad0ae6.netlify.app/">

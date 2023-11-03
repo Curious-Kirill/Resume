@@ -24,7 +24,7 @@ const Cetificates = () => {
                   </span>
                   <div className='pt-8 text-center '>
                     <a href="https://www.freecodecamp.org/certification/Kirill_Log/responsive-web-design">
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Перейти на сайт, выдавший сертификат</button>
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Просмотреть сертификат</button>
                     </a>
                    
                   </div>
@@ -35,18 +35,16 @@ const Cetificates = () => {
                <div style={{backgroundImage:`url(${jsCerf})`}} className='shadow-lg  w-[50%]   shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div2'>
 
               {/* Hover Effects */}
-              <div className='opacity-0 group-hover:opacity-100 '>
+              <div className='opacity-0  group-hover:opacity-100 '>
               
                   <span className='text-2xl font-bold text-white tracking-wider'>
-                      React JS Application 
+                      Ознакомиться с сертификатом <br/>  "JS Algorithms and Data Structures"
                   </span>
                   <div className='pt-8 text-center '>
-                    <a href="/">
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Demo</button>
+                    <a href="https://www.freecodecamp.org/certification/Kirill_Log/javascript-algorithms-and-data-structures">
+                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' >Просмотреть сертификат</button>
                     </a>
-                    <a href="/">
-                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Code</button>
-                    </a>
+                   
                   </div>
               
               </div>

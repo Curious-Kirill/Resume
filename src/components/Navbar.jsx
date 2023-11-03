@@ -32,7 +32,7 @@ const Navbar = () => {
       document.getElementById('myProjects').innerHTML= "Мои проекты "
       document.getElementById('work').innerHTML= "Мои проекты"
       document.getElementById('checkMyWork').innerHTML= "// Здесь вы можете ознакомиться с примерами моего кода "
-      document.getElementById('hi').innerHTML= "Пиветствую! Меня зовут Кирилл Логунов. На этом сайте я хочу показать вам некоторые свои работы."
+      document.getElementById('hi').innerHTML= "Приветствую! Меня зовут Кирилл Логунов. На этом сайте я хочу показать вам некоторые свои работы."
       document.getElementById('about').innerHTML= "Обо мне"
       document.getElementById('self-description').innerHTML= "Кирилл Логунов"
       document.getElementById('self-description').innerHTML= "Я люблю создавать сайты, которые помогают качественно улучшить опыт взаимодействия клиентов с бизнесом. Я специализируюсь на создании сайтов любой направленности. От индивидуальных одностраничных визиток до крупных нагруженных сайтов с богатым функционалом. Пролистав этот сайт немного ниже вы сможете ознакомиться с примерами моих работ."
@@ -45,6 +45,7 @@ const Navbar = () => {
     }else{
       language = "En"
       document.getElementById('skills').innerHTML= "Skills"
+      document.getElementById('name').innerHTML= "Kirill Logunov"
       document.getElementById('skills2').innerHTML= "// These are the technologies I've worked with"
       document.getElementById('home1').innerHTML= "Hi, my Name is"
       document.getElementById('occupation').innerHTML= "I'm a Front End Developer."
@@ -69,7 +70,7 @@ const Navbar = () => {
     
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div  className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div className='relative left-[20px]'>
 
       <label className="switch relative border-2 solid 1px white hover:bg-pink-600 hover:border-pink-600">

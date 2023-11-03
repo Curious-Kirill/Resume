@@ -4,8 +4,8 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
 
+import Figma from '../assets/Figma-Logo.png'
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
@@ -46,8 +46,8 @@ const Skills = (props) => {
                   <p className='my-4'>GITHUB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
-                  <p className='my-4'>NODE JS</p>
+                  <img className='w-20 mx-auto' src={Figma} alt="HTML icon" />
+                  <p className='my-4'>Figma</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />

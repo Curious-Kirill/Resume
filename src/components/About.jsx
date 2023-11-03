@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div name='about' id="aboutDiv" className='w-full  h-screen bg-[#0a192f] text-gray-300 md:mb-[200px] md:mt-[200px]'>
+    <div name='about' id="aboutDiv" className='w-full  h-screen bg-[#0a192f] text-gray-300 md:-[200px] md:mt-[200px]'>
       <div className='flex ma flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
@@ -13,7 +13,7 @@ const About = () => {
           <div></div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
+            <div className=' sm:text-right text-4xl font-bold'>
               <p id="hi" >"Пиветствую! Меня зовут Кирилл Логунов. На этом сайте я хочу показать вам некоторые свои работы."</p>
             </div>
             <div>
