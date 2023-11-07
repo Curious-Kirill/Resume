@@ -41,7 +41,13 @@ const Navbar = () => {
       document.getElementById('email').innerHTML= "// Вы можете заполнить форму ниже или написать мне на email - kirill.log2020@gmail.com"
       document.getElementById('collab').innerHTML= "Отправить письмо"
       document.getElementById('certificates').innerHTML= "Мои сертификаты"
-      document.getElementById('certificates').innerHTML= "Мои сертификаты"
+      document.getElementById('mobileHome').innerHTML= "Главная"
+      document.getElementById('mobileAbout').innerHTML= "Обо мне"
+      document.getElementById('mobileSkills').innerHTML= "Навыки"
+      document.getElementById('mobileWork').innerHTML= "Портфолио"
+      document.getElementById('mobileContact').innerHTML= "Контакты"
+    
+    
     }else{
       language = "En"
       document.getElementById('skills').innerHTML= "Skills"
@@ -61,6 +67,21 @@ const Navbar = () => {
       document.getElementById('email').innerHTML= "// Submit the form below or shoot me an email - kirill.log2020@gmail.com"
       document.getElementById('contact').innerHTML= "Contact"
       document.getElementById('collab').innerHTML= "Let's Collaborate"
+      document.getElementById('mobileHome').innerHTML= "Home"
+      document.getElementById('mobileAbout').innerHTML= "About"
+      document.getElementById('mobileSkills').innerHTML= "Skills"
+      document.getElementById('mobileWork').innerHTML= "Work"
+      document.getElementById('mobileContact').innerHTML= "Contact"
+      {/*
+      
+      
+ 
+      
+    */}
+      
+
+    
+    
 
     }
     console.log(language);
@@ -107,7 +128,7 @@ const Navbar = () => {
           {lang?'Навыки':'Skills'}
           </Link>
         </li>
-        <li>
+        <li >
           <Link to='workDiv' smooth={true} duration={500}>
            {lang?'Портфолио':'Work'}
           </Link>
@@ -132,33 +153,43 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-            Home
+        <li className='py-6  text-4xl'>
+          <Link   onClick={handleClick} to='home' smooth={true} duration={500}>
+            <p id="mobileHome">
+            Главная
+              </p>
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li  className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
+          <Link  onClick={handleClick} to='about' smooth={true} duration={500}>
+           <p id="mobileAbout">
+           Обо мне
+            </p> 
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li  className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
+          <Link  onClick={handleClick} to='skills' smooth={true} duration={500}>
+            <p id="mobileSkills">
+            Навыки
+              </p>
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li  className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+          <Link  onClick={handleClick} to='work' smooth={true} duration={500}>
+            <p id="mobileWork">
+            Портфолио
+              </p>
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li  className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
+            <p id="mobileContact" >
+            Контакты
+              </p>
           </Link>
         </li>
       </ul>
@@ -169,7 +200,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='t.me/EnglishChriss'
+              href='https://t.me/EnglishChriss'
             >
               Telegram <FaTelegram size={30} />
             </a>
@@ -193,7 +224,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/kirill-logunov-7ba836170/'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

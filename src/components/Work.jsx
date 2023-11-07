@@ -112,7 +112,7 @@ const Work = () => {
       <a href="https://exquisite-shortbread-b8b83c.netlify.app/">
         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть сайт</button>
       </a>
-      <a href="https://github.com/Curious-Kirill/NewBanking.git">
+      <a href="https://github.com/Curious-Kirill/DreamSchool">
         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть код</button>
       </a>
     </div>
@@ -129,7 +129,7 @@ const Work = () => {
         Сайт производителя систем автозапуска
     </span>
     <div className='pt-8 text-center '>
-      <a href="https://jolly-babka-ad0ae6.netlify.app/">
+      <a href="https://xn-----6kcciqekf9bg1bh8ki.xn--p1ai/">
         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть сайт</button>
       </a>
       <a href="https://github.com/Curious-Kirill/NewBanking.git">

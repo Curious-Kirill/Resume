@@ -9,7 +9,7 @@ const Cetificates = () => {
         <div className='max-w-[1000px] pb-[200px] pt-[200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className='pb-1'>
             <p id="certificates" className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 '>Сертификаты</p>
-            <p id="checkMyCerf"className='py-6'>Здесь вы можете ознакомиться с последними пройдеными мною курсами</p>
+            <p id="checkMyCerf"className='py-6'>Здесь вы можете ознакомиться с последними пройденными мною курсами</p>
           </div>
 
           <div 
