@@ -132,9 +132,6 @@ const Work = () => {
       <a href="разъем-в-разъем.рф">
         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть сайт</button>
       </a>
-      <a href="https://github.com/Curious-Kirill/NewBanking.git">
-        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' > Посмотреть код</button>
-      </a>
     </div>
 
 </div>
