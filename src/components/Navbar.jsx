@@ -72,17 +72,6 @@ const Navbar = () => {
       document.getElementById('mobileSkills').innerHTML= "Skills"
       document.getElementById('mobileWork').innerHTML= "Work"
       document.getElementById('mobileContact').innerHTML= "Contact"
-      {/*
-      
-      
- 
-      
-    */}
-      
-
-    
-    
-
     }
     console.log(language);
       
